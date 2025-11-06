@@ -11,13 +11,13 @@ document.getElementById("device-info").textContent = `You are using: ${deviceTyp
 
 // Optional: redirect or customize
 if (deviceType === "Android") {
-  window.location.href = "/android.html";
+  window.location.href = "/ble_audio/android.html";
   // window.location.href = "https://play.google.com/store/apps/details?id=your.app.id";
 } else if (deviceType === "iOS") {
-  window.location.href = "/ios.html";
+  window.location.href = "/ble_audio/ios.html";
   // window.location.href = "https://apps.apple.com/app/idYOUR_APP_ID";
 } else {
-  window.location.href = "/other.html";
+  window.location.href = "/ble_audio/other.html";
   //window.location.href = "https://apps.apple.com/app/idYOUR_APP_ID";
 }
 
