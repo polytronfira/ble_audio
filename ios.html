@@ -10,20 +10,30 @@
       padding: 0;
       height: 100%;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
+      justify-content: center; /* horizontal center */
+      align-items: center;     /* vertical center */
+      background-color: #f0f0f0;
+      font-family: sans-serif;
+    }
+    .container {
+      text-align: center;
     }
     .message {
-      font-size: 1.5rem;
-      text-align: center;
-      padding: 1rem;
+      font-size: 3rem;
       color: #333;
+      margin-bottom: 1rem;
+    }
+    .device-image {
+      max-width: 80%;
+      height: auto;
     }
   </style>
 </head>
 <body>
-  <div class="message">You are using iOS device</div>
+  <div class="container">
+    <div class="message">You are using iOS</div>
+    <img class="device-image" src="app_store.png" alt="iOS" />
+  </div>
+</div>
 </body>
 </html>
